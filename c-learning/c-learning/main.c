@@ -18,11 +18,19 @@
 //void func(void);
 int main(void)
 {
-    float weight,value;
-    printf("输入你的体重？");
-    scanf("%f",&weight);
-    value = 200*weight;
-    printf("你值%.2f块钱。",value);
+//    float weight,value;
+//    printf("输入你的体重？");
+//    scanf("%f",&weight);
+//    value = 200*weight;
+    char grade = 'B';
+//    printf("你值%.2f块钱。",value);
+    printf("%c",grade);
+    printf("%zd",sizeof(char));
+    float aa;
+    printf("enter:");
+    printf(" $_______\b\b\b\b\b\b\b");
+    scanf("%f",&aa);
+
     return 0;
 
 }
